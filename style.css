@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    
+  }
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+  }
+  
+  body {
+    font: 12px "Monaco", Inconsolata, monospace;
+    background:black;
+    color: #eaff00;
+    background-image: url('img/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    animation-name: multi;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-delay: inherit;
+    animation-direction: alternate-reverse;
+    text-align: justify;
+
+  }
+  
+  .terminal {
+    background:black;
+    position: absolute;
+    left: 44%;
+    top: 50%;
+    margin-top: -50px;
+    margin-left: -125px;
+    text-shadow: 0px 0px 2px rgb(233, 41, 41);
+    width: 250px;
+    font: inherit;
+    border: none;
+    outline: none;
+    color: inherit;
+    font-size: 20px;
+    width: 37%;
+    text-align: center;
+  
+  }
+
+  .dollar:before {
+    content: '★';
+    color: #ef0fb3;
+    width: 60%;
+  }
+  mark{
+    background-color: aqua;
+    color: red;
+  }
+  .icon{
+    width: 5%;
+    height: 5%;    
+  }
+  @keyframes multi {
+    0%{
+      background: url('img/2.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+    }
+    10%{
+      background: url('img/3.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+    }
+    20%{
+      background: url('img/5.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+    }
+    40%{
+      background: url('img/6.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+    }
+    60%{
+      background: url('img/7.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+    }
+    80%{
+      background: url('img/8.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+    }
+    100%{
+      background: url('img/9.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+    }
+    
+  }
+  
